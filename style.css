@@ -1,0 +1,62 @@
+/* Basic reset for margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f8ff; /* Light background color for the entire page */
+    color: #333; /* Darker text color for contrast */
+    padding: 20px;
+}
+
+/* Container for weather data */
+#weather-container, #sunny-container {
+    margin-top: 20px;
+}
+
+/* Header styling */
+h1 {
+    font-size: 2em;
+    color: #2c3e50; /* Dark blue-gray color for the main heading */
+    margin-bottom: 10px;
+}
+
+/* Subheading styling */
+h2 {
+    font-size: 1.5em;
+    color: #34495e; /* Slightly lighter blue-gray for subheadings */
+    margin: 20px 0 10px;
+}
+
+/* Weather item styling */
+.weather-item, .sunny-day {
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #fff; /* White background for items */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
+}
+
+/* Styling for individual weather details */
+.weather-item h3, .sunny-day h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.weather-item p, .sunny-day p {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+/* Average temperature styling */
+#average-temp {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #e74c3c; /* Red color to highlight average temperature */
+}
